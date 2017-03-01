@@ -134,6 +134,10 @@ body{
 	line-height: 25px;
 	margin-right: 23px;
 }
+.search #inp-search{
+	border: 0;
+	outline: none;
+}
 .search .box-item{
 	padding-left: 8px;
 }
@@ -353,6 +357,23 @@ body{
 	background-color: #fdcc05;
 	width: 75%;
 }
+.box-caption .title{
+	font-family: "semibold";
+	font-size: 13px;
+	color: #777777;
+}
+.box-caption .subtitle{
+	font-family: "regular";
+	font-size: 11px;
+	color: #a0a0a0;
+}
+.box-caption .votes{
+	font-family: "regular";
+	font-size: 11px;
+	color: #a0a0a0;
+
+}
+
 
 
 
