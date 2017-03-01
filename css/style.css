@@ -383,12 +383,22 @@ body{
 }
 .section-video .box-caption{
 	position: absolute;
-	bottom: 0;
+	bottom: 10px;
+  left: 10px;
 	
 }
 .section-video .box-caption .title,
 .section-video .box-caption .votes{
 	color: #ffffff;
+}
+.icon-play{
+	width: 36px;
+	height: 36px;
+	background-position: 0 -577px;
+	position: absolute;
+	bottom: 15px;
+	right: 12px;
+	
 }
 
 
