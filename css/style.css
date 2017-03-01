@@ -96,6 +96,7 @@ body{
 
 
 .icon-news{background-position: 0 -540px;}
+.icon-video{background-position: -20px -560px;}
 
 
 
@@ -373,7 +374,21 @@ body{
 	font-family: "regular";
 	font-size: 11px;
 	color: #a0a0a0;
-
+}
+.section-video .box{
+	position: relative;
+}
+.section-video .box-img{
+	margin-bottom: 0;
+}
+.section-video .box-caption{
+	position: absolute;
+	bottom: 0;
+	
+}
+.section-video .box-caption .title,
+.section-video .box-caption .votes{
+	color: #ffffff;
 }
 
 
