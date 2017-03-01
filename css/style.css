@@ -342,6 +342,7 @@ body{
 .rating-wrap{
 	position: relative;
 	height: 12px;
+	margin-bottom: 2px;
 }
 .rating-wrap > div{
 	position: absolute;
@@ -361,6 +362,7 @@ body{
 	font-family: "semibold";
 	font-size: 13px;
 	color: #777777;
+	margin-bottom: 4px;
 }
 .box-caption .subtitle{
 	font-family: "regular";
