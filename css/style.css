@@ -96,7 +96,7 @@ body{
 
 
 .icon-news{background-position: 0 -540px;}
-.icon-video{background-position: -20px -560px;}
+.section-video .icon-video{background-position: -20px -560px;}
 .icon-calendar{background-position: -40px -560px;}
 .icon-time{
 	background-position: 0px -615px;
