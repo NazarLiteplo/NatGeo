@@ -52,7 +52,9 @@ body{
 	color: #777777;
 	padding: 6px 0;
 }
-
+.button:hover{
+	cursor: pointer;
+}
 .button>div:first-child{
 	padding: 0 7px;
 	/*width: 31px;
@@ -130,6 +132,10 @@ body{
 .icon-shop{background-position: 0 -620px;}
 .icon-check{background-position: -25px -620px;}
 
+.icon-controller{
+	background-position: -50px -620px;
+	vertical-align: middle;
+}
 
 
 
@@ -311,6 +317,9 @@ body{
 	padding: 0 12px;
 	box-sizing: border-box;
 }
+.slider-menu {
+	margin-bottom: 17px;
+}
 .slider-menu li{
 	width: 76px;
 	height: 30px;
@@ -347,6 +356,38 @@ body{
 .slider-menu li.active a, .slider-menu li:hover a{
 	text-transform: uppercase;
 }
+.slider-img{
+	height: 225px;
+	overflow: hidden;
+}
+.slider img{
+	width: 100%;
+}
+.slider-caption{
+	border: 1px solid #eeeeee;
+	padding: 10px 0 10px 14px;
+	color: #555555;
+	box-sizing: border-box;
+	height: 51px;
+	width: 450px;
+}
+.slider-caption .head{
+	font-family: "semibold";
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+.slider-caption .caption{
+	font-family: "regular";
+	font-size: 11px;
+}
+.slider .controller{
+	width: 51px;
+	height: 51px;
+	border: 1px solid #eeeeee;
+	text-align: center;
+	line-height: 51px;
+}
+
 
 /*sidebar*/
 .main-sidebar{
