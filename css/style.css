@@ -11,6 +11,12 @@ body{
 	font-size: 14px;
 	background-color: #fbfbfb;
 }
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
 .container{
 	width: 940px;
 	margin: 0 auto;
@@ -30,7 +36,8 @@ body{
 	border: 9px solid transparent;
 	border-top-color: #dddddd;
 	margin-left: 10px;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	vertical-align: -webkit-baseline-middle;
 }
 .box{
 	border: 1px solid #e8e8e8;
@@ -124,9 +131,13 @@ body{
 .icon-news{background-position: 0 -540px;}
 .section-video .icon-video{background-position: -20px -560px;}
 .icon-calendar{background-position: -40px -560px;}
-.icon-time{
-	background-position: 0px -615px;
+.icon-time-white{
+	background-position: -49px -500px;
 	vertical-align: middle;
+	}
+.icon-time{
+	background-position: 0px -560px;
+	/*vertical-align: middle;*/
 }
 
 .icon-shop{background-position: 0 -620px;}
@@ -136,6 +147,10 @@ body{
 	background-position: -50px -620px;
 	vertical-align: middle;
 }
+
+.icon-list{background-position: 5px -638px;}
+.icon-grid{background-position: -20px -638px;}
+
 
 
 
@@ -318,7 +333,7 @@ body{
 	box-sizing: border-box;
 }
 .slider-menu {
-	margin-bottom: 17px;
+	margin-bottom: 20px;
 }
 .slider-menu li{
 	width: 76px;
@@ -396,6 +411,11 @@ body{
 
 .slider-caption-wrap{
 	border: 1px solid #eeeeee;
+	margin-bottom: 15px;
+}
+.slider-caption-wrap:after{
+	content: "";
+	display: block;
 	clear: both;
 }
 .slider-caption{
@@ -427,6 +447,59 @@ body{
 .slider .controller:hover{
 	cursor: pointer;
 }
+.slider .wrap-header{
+	font-size: 0px;
+}
+.slider .section-header{
+	padding: 4px 0;
+	font-size: 12px;
+	box-sizing: border-box;
+	width: 60%;
+	line-height: 19px;
+	margin-bottom: 0;
+	overflow: hidden;
+	
+}
+.slider .section-header .box-item{
+	padding-left: 35px;
+	font-family: "regular";
+	font-size: 12px;
+	color:#cacaca;
+	vertical-align: baseline;
+}
+
+.slider .section-header .box-item:first-child{
+	width: 115px;
+	padding-left: 12px;
+	font-family: "semibold";
+	font-size: 12px;
+	color: #777777;
+}
+.slider  .button-box{
+	height: 30px;
+	line-height: 32px;
+	font-size: 0px;
+
+	background-color: #555555;
+
+	float: right;
+}
+.slider .button-box .btn{
+	width: 30px;
+	height: 30px;
+	padding: 0 5px;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+.slider .button-box .btn.active{
+	background-color: #fdcc05;
+}
+.slider .button-box span{
+	vertical-align: middle;
+	
+	/*width: 36px;*/
+}
+
 
 
 /*sidebar*/
@@ -541,6 +614,8 @@ body{
 	padding-top: 5px;
 }
 .section-events .section-header:after{
+	content: '';
+	display: block;
 	clear: both;
 }
 
