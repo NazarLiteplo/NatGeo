@@ -359,17 +359,51 @@ body{
 .slider-img{
 	height: 225px;
 	overflow: hidden;
+	position: relative;
 }
 .slider img{
 	width: 100%;
 }
-.slider-caption{
+.slider .pagination-wrap{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 0;
+}
+.slider .pagination{	
+	padding: 5px 0;
+	font-family: "semibold";
+	color: #ffffff;
+	font-size: 15px;
+	background-color: #555555;
+}
+.slider .pagination .box-item{
+	padding: 0 10px;
+	border-right: 1px solid #717171;
+}
+.slider .pagination:last-child .box-item{
+	border-right: none;
+}
+.slider .pagination.active{
+	background-color: #fdcc05;
+}
+.slider .pagination.active .box-item{
+	border-right: none;
+}
+.slider .pagination:hover{
+	cursor: pointer;
+}
+
+.slider-caption-wrap{
 	border: 1px solid #eeeeee;
+	clear: both;
+}
+.slider-caption{
 	padding: 10px 0 10px 14px;
 	color: #555555;
 	box-sizing: border-box;
 	height: 51px;
-	width: 450px;
+	width: 400px;
 }
 .slider-caption .head{
 	font-family: "semibold";
@@ -381,11 +415,17 @@ body{
 	font-size: 11px;
 }
 .slider .controller{
+	box-sizing: border-box;
 	width: 51px;
 	height: 51px;
-	border: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-bottom: none;
 	text-align: center;
 	line-height: 51px;
+	float: right;
+}
+.slider .controller:hover{
+	cursor: pointer;
 }
 
 
