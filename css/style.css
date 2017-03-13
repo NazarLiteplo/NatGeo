@@ -500,7 +500,41 @@ body{
 	/*width: 36px;*/
 }
 
+/*news*/
+.news-section{
+	padding-top: 12px;
+	padding-right: 12px;
+	font-size: 0px;
+}
+.news-box {
+		width: 329px;
+		height: 238px;
+    padding: 4px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+   
+}
+.news-box:nth-child(odd){
+	 margin-left: 0;
+}
+.news-section p{
+	font-size: 12px;
+	font-family: "regular";
+	color: #989898;
+	line-height: 14px;
+	text-align: justify;
+	padding: 0 4px;
+}
 
+
+
+
+
+
+
+
+
+/*end news*/
 
 /*sidebar*/
 .main-sidebar{
