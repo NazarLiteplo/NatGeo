@@ -525,7 +525,17 @@ body{
 	text-align: justify;
 	padding: 0 4px;
 }
+.news-section .box-caption .title{
+	font-size: 14px;
+}
 
+.news-section .box-caption .rating-wrap{
+    margin-bottom: 7px;
+}
+
+hr{
+	border-top: 1px solid #eaeaea;
+}
 
 
 
