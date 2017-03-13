@@ -286,11 +286,17 @@ body{
 /*header end*/
 
 /*main */
+
+.main{
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 12px;
+}
 .main>div{
 	box-sizing: border-box;
 }
 .main-content{
 	width: 705px;
+	border-right: 1px solid #eaeaea;
 	/*padding-right: 12px;*/
 }
 .submenu{
@@ -328,7 +334,7 @@ body{
 }
 
 .slider{
-	width: 529px; 
+	width: 528px; 
 	padding: 0 12px;
 	box-sizing: border-box;
 }
@@ -502,7 +508,6 @@ body{
 
 /*news*/
 .news-section{
-	padding-top: 12px;
 	padding-right: 12px;
 	font-size: 0px;
 }
@@ -511,7 +516,7 @@ body{
 		height: 238px;
     padding: 4px;
     margin-left: 12px;
-    margin-bottom: 12px;
+    margin-top: 12px;
    
 }
 .news-box:nth-child(odd){
@@ -550,10 +555,13 @@ body{
 .main-sidebar{
 	width: 235px;
 	padding-left: 12px;
-	border-left: 1px solid #eaeaea;
+	/*border-left: 1px solid #eaeaea;*/
 }
 .main-sidebar .section{
 	margin-bottom: 18px;
+}
+.main-sidebar .section:last-child{
+	margin-bottom: 0;
 }
 .section-header{
 	height: 30px;
