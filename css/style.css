@@ -53,9 +53,10 @@ body{
 	/*height: 31px;*/
 	box-sizing: border-box;
 	text-align:center;
+	text-transform: uppercase;
 	border: 1px solid #eeeeee;
 	line-height: 19px;
-	font-size: 11px;
+	font-size: 10px;
 	color: #777777;
 	padding: 6px 0;
 }
@@ -289,7 +290,8 @@ body{
 
 .main{
 	border-bottom: 1px solid #eaeaea;
-	padding-bottom: 12px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
 }
 .main>div{
 	box-sizing: border-box;
@@ -720,10 +722,52 @@ line-height: 14px;
 	clear: both;
 }
 
-
-	
-
-
-
 /*main end */
 
+/*magazine*/
+
+.magazines .section-header .icon {
+    vertical-align: text-top;
+    margin-right: 10px;
+}
+/*.magasine-wrap{
+	font-size: 0;
+}*/
+.magazin-box{
+	width: 213px;
+  /*height: 238px;*/
+  padding: 5px 5px 0 5px;
+  margin-right: 10px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+/*.magazin-box:first-child{
+	margin-left: 0;
+}*/
+.magazines .section-prev{
+	height: 145px;
+}
+.magazines .box-img{
+	/*width: 70px;*/
+	height: 100px;
+	text-align: center;
+	margin: 10px auto;
+}
+.magazines img{
+	width: initial;
+	/*height: initial;*/
+}
+
+.magazines .box-caption>p {
+    padding-right: 0;
+    text-align: center;
+}
+.magazines .rating{
+	float: none;
+}
+.magazines .button{
+	float: right;
+	margin-right: -5px;
+	border-bottom: none;
+	border-right: none;
+}
