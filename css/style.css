@@ -152,6 +152,9 @@ body{
 .icon-list{background-position: 5px -638px;}
 .icon-grid{background-position: -20px -638px;}
 
+.icon-facebook{background-position: 0px -660px;}
+.icon-twitter{background-position: -40px -659px;}
+.icon-youtube{background-position: -49px -699px;}
 
 
 
@@ -730,20 +733,19 @@ line-height: 14px;
     vertical-align: text-top;
     margin-right: 10px;
 }
-/*.magasine-wrap{
-	font-size: 0;
-}*/
+.magasine-wrap{
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
 .magazin-box{
-	width: 213px;
+	width: 215px;
   /*height: 238px;*/
   padding: 5px 5px 0 5px;
   margin-right: 10px;
-  margin-top: 12px;
-  margin-bottom: 20px;
 }
-/*.magazin-box:first-child{
-	margin-left: 0;
-}*/
+.magazin-box:last-child{
+	margin-right: 0;
+}
 .magazines .section-prev{
 	height: 145px;
 }
@@ -757,7 +759,6 @@ line-height: 14px;
 	width: initial;
 	/*height: initial;*/
 }
-
 .magazines .box-caption>p {
     padding-right: 0;
     text-align: center;
@@ -771,3 +772,90 @@ line-height: 14px;
 	border-bottom: none;
 	border-right: none;
 }
+
+/*magazine end*/
+
+/*footer*/
+
+.footer{
+	background-color: #1f1f1f;
+	/*background-color: grey;*/
+	color: white;
+}
+.footer .footer-wrap{
+	padding: 19px 8px 13px 9px;
+	font-size: 0;
+}
+.footer .subscribe{
+
+}
+.footer .footer-wrap input{
+	box-sizing: border-box;
+	width: 235px;
+	height: 37px;
+	padding: 10px;
+	background-color: #282828;
+	border: none;
+	outline: none;
+	font-family: "regular";
+	font-size: 14px;
+	font-style: italic;
+	color: #595959;
+}
+.footer .footer-wrap input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #595959;
+  font-family: "regular";
+  font-size: 15px;
+}
+
+.footer .footer-wrap button{
+	padding: 9px 20px;
+	font-family: "semibold";
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #848484;
+	background-color: #1f1f1f;
+	border: 2px solid #292929;
+	border-radius: 8px;
+	outline: none;
+}
+.footer .footer-wrap button:hover{
+	cursor: pointer;
+}
+.footer .social .icon:hover{
+	cursor: pointer;
+}
+.footer .icon-big{
+	width: 37px;
+	height: 37px;
+}
+.footer .last{
+	font-size: 13px;
+}
+.footer .mnu{
+	margin-bottom: 7px;
+}
+.footer .mnu li{
+border-right: 1px solid #777777;
+}
+.footer .mnu li:last-child{
+border-right: none;
+}
+.footer .mnu a{
+	padding: 0 10px;
+	color: #bbbbbb;
+	text-decoration: none;
+}
+.footer .last .copyright{
+	font-size: 12px;
+	color: #4a4a4a;
+	padding-left: 10px;
+	
+}
+
+
+
+
+
+
+/*footer end*/
